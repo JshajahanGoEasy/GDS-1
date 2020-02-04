@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106588" started-at="2020-02-03T21:35:23Z" finished-at="2020-02-03T21:37:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106588" started-at="2020-02-03T21:35:23Z" finished-at="2020-02-03T21:37:09Z">
+      <class name="TestAutomation.Test">
+        <test-method status="PASS" signature="initialize1()[pri:0, instance:TestAutomation.Test@15be6bb]" name="initialize1" is-config="true" duration-ms="4089" started-at="2020-02-03T16:35:23Z" finished-at="2020-02-03T16:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize1 -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:TestAutomation.Test@15be6bb]" name="m1" duration-ms="102477" started-at="2020-02-03T16:35:27Z" finished-at="2020-02-03T16:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- TestAutomation.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

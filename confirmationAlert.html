@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#C0C0C0">
+<h1>
+Confirmation Alert Demonstration</h1>
+<p>
+click the Below Button to continue</p>
+<button onclick="alertFunction()" name ="alert"> Click to Continue</button>
+<p id ="msg"> 
+</p>
+<script>
+function alertFunction() {
+ var txt;
+ if (confirm("Click OK to Automation Script to Run Else click Cancel to edit the application")) {
+ 
+ txt = "You pressed OK!"
+
+} else {
+
+txt = "You pressed CANCEL!"
+ }
+ document.getElementById("msg").innerHTML = txt;
+}
+</script>
+</body>
+</html>

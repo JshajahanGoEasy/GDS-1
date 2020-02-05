@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106588" started-at="2020-02-03T21:35:23Z" finished-at="2020-02-03T21:37:09Z">
+  <suite name="Default suite" duration-ms="217244" started-at="2020-02-05T01:56:45Z" finished-at="2020-02-05T02:00:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106588" started-at="2020-02-03T21:35:23Z" finished-at="2020-02-03T21:37:09Z">
+    <test name="Default test" duration-ms="217244" started-at="2020-02-05T01:56:45Z" finished-at="2020-02-05T02:00:22Z">
       <class name="TestAutomation.Test">
-        <test-method status="PASS" signature="initialize1()[pri:0, instance:TestAutomation.Test@15be6bb]" name="initialize1" is-config="true" duration-ms="4089" started-at="2020-02-03T16:35:23Z" finished-at="2020-02-03T16:35:27Z">
+        <test-method status="PASS" signature="initialize1()[pri:0, instance:TestAutomation.Test@15be6bb]" name="initialize1" is-config="true" duration-ms="4348" started-at="2020-02-04T20:56:45Z" finished-at="2020-02-04T20:56:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize1 -->
-        <test-method status="PASS" signature="m1()[pri:0, instance:TestAutomation.Test@15be6bb]" name="m1" duration-ms="102477" started-at="2020-02-03T16:35:27Z" finished-at="2020-02-03T16:37:09Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:TestAutomation.Test@15be6bb]" name="m1" duration-ms="212849" started-at="2020-02-04T20:56:49Z" finished-at="2020-02-04T21:00:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->

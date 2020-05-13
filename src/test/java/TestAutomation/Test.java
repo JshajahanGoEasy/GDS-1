@@ -21,7 +21,7 @@ import com.google.common.base.Function;
 import resources.BrowserDriver;
 import resources.Popup;
 
-public class Test extends BrowserDriver {
+public class Test extends BrowserDriver {/*
 
 	public WebDriver driver;
 
@@ -34,10 +34,11 @@ public class Test extends BrowserDriver {
 
 	@org.testng.annotations.Test
 	public void m1() throws InterruptedException {
+		/*
 		driver.get(prop.getProperty("sfUrl"));
 		Thread.sleep(2000);
-		driver.findElement(By.xpath(prop.getProperty("username"))).sendKeys("PareshK@goeasy.com.spl");
-		driver.findElement(By.cssSelector(prop.getProperty("password"))).sendKeys("Hello@32");
+		driver.findElement(By.xpath(prop.getProperty("username"))).sendKeys("abcd@gmail.com");
+		driver.findElement(By.cssSelector(prop.getProperty("password"))).sendKeys("p@$$w0rd");
 		driver.findElement(By.xpath(prop.getProperty("clicklogin"))).click();
 		Thread.sleep(3000);
 		String baseUrl = driver.getCurrentUrl();
@@ -49,6 +50,7 @@ public class Test extends BrowserDriver {
 			driver.findElement(By.xpath(prop.getProperty("userIcon"))).click();
 			Thread.sleep(3000);
 			driver.findElement(By.xpath(prop.getProperty("switchToSFClassic"))).click();
+		
 		}
 
 		// FSR-Application
@@ -372,5 +374,5 @@ public class Test extends BrowserDriver {
 		System.out.println(Timestamp.contains(ts));
 
 	}
-
+*/
 }
